@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:49:17.227Z",
+  "generated_at": "2026-10-09T09:38:33.728Z",
   "items": {
     "problem:15": {
       "kind": "problem",
@@ -52,6 +52,32 @@
       "last_pushed_at": "2026-10-09T08:49:16.205Z",
       "language": "python",
       "lines": 7
+    },
+    "problem:112": {
+      "kind": "problem",
+      "id": "112",
+      "title": "Min-Max Scaling of Feature Values",
+      "difficulty": "easy",
+      "category": "Data Structures",
+      "url": "https://www.deep-ml.com/problems/112",
+      "path": "problems/0112-min-max-scaling-of-feature-values",
+      "first_solved_at": "2026-10-02T11:45:51.762Z",
+      "last_pushed_at": "2026-10-02T11:45:51.762Z",
+      "language": "python",
+      "lines": 24
+    },
+    "problem:354": {
+      "kind": "problem",
+      "id": "354",
+      "title": "Handle Missing Data with Imputation",
+      "difficulty": "medium",
+      "category": "Data Structures",
+      "url": "https://www.deep-ml.com/problems/354",
+      "path": "problems/0354-handle-missing-data-with-imputation",
+      "first_solved_at": "2026-10-02T12:23:16.506Z",
+      "last_pushed_at": "2026-10-02T12:23:16.506Z",
+      "language": "python",
+      "lines": 52
     }
   }
 }
