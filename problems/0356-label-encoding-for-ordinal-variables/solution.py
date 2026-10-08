@@ -9,18 +9,5 @@ def label_encode_ordinal(values: list, order: list) -> list:
     Returns:
         List of integers representing the encoded values
     """
-    dict = {}
-    i = 0
-    for i in range(len(order)):
-        dict[order[i]] = i
-        
-
-    res = []
-    for val in values:
-        if val in dict:
-            res.append(dict[val])
-        else:
-            res.append(-1)        
-    
-    return res
-    pass
+    mapping = {value : i for i,value in enumerate((order))}
+    return [mapping.get(value,-1) for value in values]
